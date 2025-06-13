@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8BC34A"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Game Over"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You've used all your attempts."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tvTargetNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My number was: 2112"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tvGuesses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your guesses: 1234, 5678, 9012"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Would you like to play again?"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnNo"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/button_background"
+                android:text="NO"
+                android:textColor="#FFFFFF"
+                tools:ignore="ButtonStyle,HardcodedText,TextContrastCheck" />
+
+            <Button
+                android:id="@+id/btnYes"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_background"
+                android:text="YES"
+                android:textColor="#FFFFFF"
+                tools:ignore="ButtonStyle,HardcodedText,TextContrastCheck" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

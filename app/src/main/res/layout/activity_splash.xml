@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <!-- Chalkboard with Text -->
+    <RelativeLayout
+        android:id="@+id/chalkboard_container"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/chalkboard_background">
+
+        <TextView
+            android:id="@+id/chalkboard_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="WHAT'S\nYOUR\nNUMBER?"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:letterSpacing="0.1"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Number Guessing Game"
+        android:textColor="#D32F2F"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
