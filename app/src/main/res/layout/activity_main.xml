@@ -8,25 +8,14 @@
     android:padding="20dp">
 
     <!-- Header -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="20dp">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Number guessing game"
-            android:textColor="#673AB7"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            tools:ignore="HardcodedText" />
-    </LinearLayout>
 
     <!-- Instructions -->
+
+
+
+
     <TextView
+        android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Please select a number of digits. The number of digits that I keep in my mind and the number of digits you choose will be the same. Also never forget that you have 10 rights."
@@ -85,12 +74,12 @@
         android:id="@+id/btnStart"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
         android:text="Start"
+        android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="#FFFFFF"
-        android:background="@drawable/button_background"
-        android:layout_marginTop="20dp"
         tools:ignore="HardcodedText,VisualLintButtonSize" />
 
 </LinearLayout>
